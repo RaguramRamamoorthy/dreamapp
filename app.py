@@ -16,7 +16,7 @@ st.text("https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detect
 
 st.text("Upload a brain MRI Image to find weather it is healthy or not")
 
-uploaded_file = st.file_uploader("Choose a brain MRI ...")
+uploaded_file = st.file_uploader("Choose a brain MRI ...",type=["png","jpg","jpeg"])
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption='Uploaded MRI.', use_column_width=True)
