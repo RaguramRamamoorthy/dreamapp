@@ -4,17 +4,18 @@ from img_classification import teachable_machine_classification
 import webbrowser
 
 
-st.title("Med App")
-st.header("Brain Tumor MRI Classification Example")
+st.title("Brain Tumor MRI Classification")
 
-url = 'https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection'
+link = '[Kaggle-link for MRI images](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)'
 
-st.text("If you need MRI images for testing the app ,please find it in the kaggle link below")
 
-if st.button('Images-link'):
-    webbrowser.open_new_tab(url)
+st.text("If you need MRI images for testing the App,please find it in the kaggle link below")
+st.markdown(link, unsafe_allow_html=True)
 
-st.text("Upload a brain MRI Image for image classification as tumor or no-tumor")
+
+
+st.text("Upload a brain MRI Image for image classification to find weather the scan image")
+st.text("is healthy or not")
 
 uploaded_file = st.file_uploader("Choose a brain MRI ...")
 if uploaded_file is not None:
