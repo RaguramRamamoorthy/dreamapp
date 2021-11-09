@@ -2,6 +2,6 @@ keras
 streamlit 
 pillow 
 numpy
-tensorflow-lite
+tflite==2.3.0
 
 
