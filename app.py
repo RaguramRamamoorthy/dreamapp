@@ -39,7 +39,8 @@ if uploaded_file is not None:
         st.write("The MRI scan has a brain tumor")
 
 
-st.text("If you need assistance in deploying a machine learning or deep leanring")
-st.text("model that might be useful for the genral popualtion or a specific hospiatl")
-st.text("please feel free to mail me at 'rrrtechie@gmail.com'")
+st.text("If you need assistance in deploying a medicine based machine learning or a deep")
+st.text("learning model that might be useful for the general popualtion or a specific")
+st.text("hospital please reach out to us")
+st.text("Contact me at 'rrrtechie@gmail.com'")
 
