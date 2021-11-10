@@ -9,9 +9,7 @@ st.title("Brain Tumor MRI Classification")
 
 
 st.text("If you need MRI images for testing the App")
-st.text("Copy paste this link in a browser ")
-st.text("https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection")
-
+st.text("download a zip folder from here...")
 
 # folder = os.getcwd() + '/images'
 # st.download_button('Download images', folder)
