@@ -1,7 +1,8 @@
 import streamlit as st
 from PIL import Image, ImageOps
 from img_classification import teachable_machine_classification
-import webbrowser
+import os
+
 
 
 st.title("Brain Tumor MRI Classification")
@@ -12,7 +13,16 @@ st.text("Copy paste this link in a browser ")
 st.text("https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection")
 
 
+# folder = os.getcwd() + '/images'
+# st.download_button('Download images', folder)
 
+with open("images.zip", "rb") as fp:
+    btn = st.download_button(
+        label="Download ZIP",
+        data=fp,
+        file_name="images.zip",
+        mime="application/zip"
+    )
 
 st.text("Upload a brain MRI Image to find weather it is healthy or not")
 
