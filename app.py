@@ -31,9 +31,9 @@ with open("images.zip", "rb") as fp:
     )
 
 
-st.text("If you need assistance in deploying a medicine based machine learning or a deep")
-st.text("learning model that might be useful for the general popualtion or a specific")
-st.text("hospital please feel free to reach out to us....")
+st.text("If you need assistance in deploying a healthcare based machine learning or a deep")
+st.text("learning model that might be useful for the general population or a specific")
+st.text("hospital please feel free to reach out to me at 'rrrtechie@gmail.com'")
 
-st.text("Contact me at 'rrrtechie@gmail.com' for feedback or enquiries")
+
 
