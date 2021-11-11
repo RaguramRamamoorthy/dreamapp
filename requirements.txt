@@ -2,7 +2,7 @@ keras
 streamlit 
 pillow 
 numpy
-tensorflow
+tensorflow-cpu
 
 
 
