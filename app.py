@@ -4,6 +4,7 @@ from img_classification import teachable_machine_classification
 
 
 st.title("Brain Tumor MRI Classification")
+st.sidebar.image("logo.png",width=150)
 
 st.text("Upload a brain MRI Image here to find weather it is healthy or not")
 
